@@ -32,6 +32,22 @@ app.get('/register', function(req, res) {
   res.render('register');
 });
 
+app.get('/register_v2?', function(req, res) {
+  res.render('register_v2?');
+});
+
+app.get('/register_v3', function(req, res) {
+  res.render('register_v3');
+});
+
+app.get('/register_v4', function(req, res) {
+  res.render('register_v4');
+});
+
+app.get('/register_v5', function(req, res) {
+  res.render('register_v5');
+});
+
 app.get('/about', function(req, res) {
   res.render('about');
 });

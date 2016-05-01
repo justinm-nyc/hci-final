@@ -1,0 +1,45 @@
+.border-box{
+  max-width: 85%;
+  padding: 45px 35px 45px;
+  background-color: #fff;
+  border: 2px solid rgba(0,0,0,0.1);  
+  text-align: left;
+  margin: 0 auto;
+
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+}
+.border-box2{
+  max-width: 495px;
+  padding: 45px 35px 45px;
+  background-color: #fff;
+  border: 2px solid rgba(0,0,0,0.1);  
+  text-align: left;
+  margin: 0 auto;
+
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+}
+
+span{
+    margin-right: 50px;
+    float: left;
+}
+
+.clearfix{
+    clear:both
+}
