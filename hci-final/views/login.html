@@ -15,6 +15,7 @@
 
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="/css/magister.css">
+	<link rel="stylesheet" href="/css/login.css">
 
 	<!-- Fonts -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -41,16 +42,21 @@
 </nav>
 <section class="section" id="head">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
-
-				<!-- Site Title, your name, HELLO msg, etc. -->
 				<h1 class="title">Login</h1>
-
 			</div> <!-- /col -->
 		</div> <!-- /row -->
-	
+	  	<div class="wrapper">
+    		<form class="form-signin">       
+      			<input type="text" class="form-control" name="username" placeholder="Username" required="" autofocus="" />
+      			<input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+      			<label class="checkbox">
+        			<input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember Me?
+      			</label>
+      			<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+    		</form>
+  		</div>
 	</div>
 </section>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
