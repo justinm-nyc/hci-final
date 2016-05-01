@@ -186,13 +186,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
     border-radius: 15px;
     border: 2px solid #e7e7e7;
 }
-.btn3 {
-    background-color: white;
-    color: #e7e7e7;
-    padding: 15px 32px;
-    border-radius: 15px;
-    border: 2px solid black;
-}
+
 .btn:hover {
 	color:#000;
 }
