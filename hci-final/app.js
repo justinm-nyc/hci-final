@@ -64,6 +64,9 @@ app.get('/am_redirect', function(req, res) {
 app.get('/account_home', function(req, res) {
   res.render('account_home');
 });
+app.get('/seedata', function(req, res) {
+  res.render('seedata');
+});
 
 
 // catch 404 and forward to error handler
