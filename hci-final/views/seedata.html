@@ -15,6 +15,7 @@
 
     <!-- Custom styles -->
     <link rel="stylesheet" href="/css/magister.css">
+    <link rel="stylesheet" href="/css/account_home.css">
 
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,9 +31,10 @@
             <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <li><a href="/account_home" class="active">Home</a></li>
+                <li><a href="/account_home">Home</a></li>
                 <li><a href="/add_mood">Add Mood</a></li>
                 <li><a href="/seedata" class="active">See Data</a></li>
+                <li><a href="/expert_page">Expert's Circle</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact Us</a></li>
             </ul>
@@ -43,17 +45,100 @@
 
 <!-- Main (Home) section -->
 <section class="section" id="head">
+    <div class="row">
+            <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">   
+                <h1 class="title" style="margin-bottom:50px">Data Visualization</h1>
+            </div> 
+        </div> 
     <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 text-center">   
-                <h1 class="title">Data</h1>
-                    <img src="http://placehold.it/500x500" style="padding-bottom: 1em">
-                        <br />
-                    <a href="/add_mood"><button type="button" class="btn2">See Data</button></a>
+        <div class="row" style="float:left">
+        <strong><p style="text-align: center">Past 30 days</p></strong> 
+            <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 text-center"> 
+             
+                    <img src="/images/crazy_graph.png" style="width:500px">
+                    </br>
+                    </br>
+                    <img src="/images/colorful_graph.png" style="width:500px">
+                   <!--  <a href="/add_mood"><button type="button" class="btn2">See Data</button></a> -->
             </div> <!-- /col -->
         </div> <!-- /row -->
-    
+        <div class="row" style="float:right">
+
+            <div> 
+            <strong><p style="text-align: center">Mood Log</p></strong> 
+                    <table>
+                        <tr>
+                            <th>Mood</th>
+                            <th>Comment</th>
+                            <th>Date</th>
+                        </tr> 
+                        <a href="/add_mood"><tr>
+                            <td><a href="/add_mood">Happy</a></td>
+                            <td>My mom said I was beautiful.</td>
+                            <td>5/1/16</td>
+                        </tr> </a>
+                        <tr>
+                            <td><a href="/add_mood">Content</a></td>
+                            <td>Just a boring day.</td>
+                            <td>4/27/16</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/add_mood">Angry</a></td>
+                            <td>I dropped my ice cream.</td>
+                            <td>4/24/16</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/add_mood">Happy</a></td>
+                            <td>Smoked the Devil's lettuce.</td>
+                            <td>4/20/16</td>
+                        </tr> 
+                        <tr>
+                            <td><a href="/add_mood">Sad</a></td>
+                            <td>I am graduating.</td>
+                            <td>4/16/16</td>
+                        </tr> 
+                        <tr>
+                            <td><a href="/add_mood">Surprised</a></td>
+                            <td>I found out I've been 6 months pregnant!</td>
+                            <td>4/11/16</td>
+                        </tr>
+                        <a href="/add_mood"><tr>
+                            <td><a href="/add_mood">Happy</a></td>
+                            <td>My mom said I was beautiful.</td>
+                            <td>4/7/16</td>
+                        </tr> </a>
+                        <tr>
+                            <td><a href="/add_mood">Content</a></td>
+                            <td>Just a boring day.</td>
+                            <td>4/5/16</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/add_mood">Angry</a></td>
+                            <td>I dropped my ice cream.</td>
+                            <td>3/7/16</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/add_mood">Happy</a></td>
+                            <td>Smoked the Devil's lettuce.</td>
+                            <td>2/9/16</td>
+                        </tr> 
+                        <tr>
+                            <td><a href="/add_mood">Sad</a></td>
+                            <td>I am graduating.</td>
+                            <td>2/16/16</td>
+                        </tr> 
+                        <tr>
+                            <td><a href="/add_mood">Surprised</a></td>
+                            <td>I found out I've been 6 months pregnant!</td>
+                            <td>2/20/16</td>
+                        </tr> 
+                    </table>
+                    <br />
+                    <br />
+                    <a href="/archive"><button class="btn btn-lg btn-primary " style="width: 410px;margin-left:15%"><strong>See More</strong></button></a>
+                    </div>
     </div>
+
 </section>
 
 <!-- Load js libs only when the page is loaded. -->
