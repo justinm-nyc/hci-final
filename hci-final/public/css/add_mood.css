@@ -1,0 +1,7 @@
+#ex1Slider .slider-selection {
+    background: #BABABA;
+}
+
+body > .section > .container > .row {
+    padding-bottom: 2em;
+}

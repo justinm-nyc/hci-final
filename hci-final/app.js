@@ -55,6 +55,14 @@ app.get('/about', function(req, res) {
 app.get('/contact', function(req, res) {
   res.render('contact');
 });
+app.get('/add_mood', function(req, res) {
+  res.render('add_mood');
+});
+app.get('/am_redirect', function(req, res) {
+  res.render('am_redirect');
+});
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
