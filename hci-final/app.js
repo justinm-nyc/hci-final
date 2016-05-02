@@ -55,16 +55,30 @@ app.get('/about', function(req, res) {
 app.get('/contact', function(req, res) {
   res.render('contact');
 });
+
 app.get('/add_mood', function(req, res) {
   res.render('add_mood');
 });
+
 app.get('/am_redirect', function(req, res) {
   res.render('am_redirect');
 });
+
 app.get('/account_home', function(req, res) {
   res.render('account_home');
 });
 
+app.get('/account_settings', function(req, res) {
+  res.render('account_settings');
+});
+
+app.get('/seedata', function(req, res) {
+  res.render('seedata');
+});
+
+app.get('/expert_page', function(req, res) {
+  res.render('expert_page');
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
