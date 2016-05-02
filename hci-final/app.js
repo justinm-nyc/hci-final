@@ -61,6 +61,9 @@ app.get('/add_mood', function(req, res) {
 app.get('/am_redirect', function(req, res) {
   res.render('am_redirect');
 });
+app.get('/account_home', function(req, res) {
+  res.render('account_home');
+});
 
 
 // catch 404 and forward to error handler
